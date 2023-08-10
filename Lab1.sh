@@ -1,6 +1,6 @@
 # solve Lab1 bash script
 #1
-cat /etc/passwd |grep -i lpg
+cat /etc/passwd |grep -i lp
 #2 display the /etc/passwd except the third line.
 #sed '3d' /etc/passwd =delete the third line
 awk -F: '{ if (NR!=3) print bash }' /etc/passwd
