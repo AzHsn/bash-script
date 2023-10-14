@@ -1,0 +1,5 @@
+#!/usr/bin/bash
+# another way to print the value of x in 2.sh file using source to call 2.sh in the same shell run 1.sh, this mean x is #access by 2.sh
+x=5
+
+source ./2.sh
